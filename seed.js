@@ -52,13 +52,11 @@ const DataPoint = {
 };
 
 const DataPointDimention1 = {
-    id: 1,
     DataPointId: 1,
     DimentionId: 1,
 };
 
 const DataPointDimention2 = {
-    id: 2,
     DataPointId: 1,
     DimentionId: 2,
 };

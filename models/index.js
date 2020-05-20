@@ -16,8 +16,8 @@ DataPoint.belongsTo(Indicator);
 Property.hasMany(Indicator);
 Concept.hasMany(Indicator);
 
-DataPoint.belongsToMany(Dimention, {through: 'DataPointDimenion'} );
-Dimention.belongsToMany(DataPoint, {through: 'DataPointDimenion'} );
+DataPoint.belongsToMany(Dimention, {through: 'DataPointDimention'} );
+Dimention.belongsToMany(DataPoint, {through: 'DataPointDimention'} );
 Property.hasMany(Dimention);
 Concept.hasMany(Dimention);
 
