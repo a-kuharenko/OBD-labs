@@ -1,8 +1,8 @@
 # OBD-labs
 
-npm install
-npm run db
-npm run start
+npm install<br/>
+npm run db<br/>
+npm run start<br/>
 
-first start ? 
+At the first start:  
 > npm run seed 
